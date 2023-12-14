@@ -14,7 +14,7 @@ A new list rank dataset named `LRL_datasets` is constructed, which includes 200 
 
 ![image](./fig/LRL_datasets.png)
 
-Our `LRL_datasets` dataset is released in four parts, namely [part_1](https://drive.google.com/file/d/18X0c3ROGvLFXRjS3FiJXeigZfZFF6Brw/view?usp=share_link), [part_2](https://drive.google.com/file/d/16uoicJeXmGPGqB-ION27_wInKF2YBN6u/view?usp=share_link), part_3, and part_4.
+Our `LRL_datasets` dataset is released in four parts, namely [part_1](https://drive.google.com/file/d/18X0c3ROGvLFXRjS3FiJXeigZfZFF6Brw/view?usp=share_link), [part_2](https://drive.google.com/file/d/16uoicJeXmGPGqB-ION27_wInKF2YBN6u/view?usp=share_link), part_3, and part_4(We will be uploading Parts 3 and 4 soon).
 
 
 # Run Program
