@@ -32,7 +32,7 @@ def generation_fea_lab(txt_dir_path, tune_feature_model, load_model, list_length
     #         7.label_saveload：生成标签列表保存路径
     #         8.way:表示点云以整个模型作为输入还是分patch
     print('\n', torch.cuda.is_available())
-    Use_gpu = torch.cuda.is_available()
+    Use_gpu = torch.cuda.is_available() 
 
     PTHDataset = PTHDataloader(txt_dir_path, True)
     trainloader = DataLoader(PTHDataset, batch_size=1, num_workers=0, shuffle=False, drop_last=False)

@@ -28,7 +28,7 @@ txt_dir_path = '.\index\listwise_train_10level.txt'
 PTHataset = PTHDataloader(txt_dir_path, True)
 trainloader = DataLoader(PTHataset, batch_size=1, num_workers=0, shuffle=True, drop_last=False)
 
-save_output_filename = open('.\LossAndAcc.txt', mode='w',encoding='utf-8')
+save_output_filename = open('.\LossAndAcc.txt', mode='w',encoding='utf-8') 
 #model = model_own()
 loss_f = torch.nn.CrossEntropyLoss()
 optimizer=torch.optim.Adam(model.parameters())

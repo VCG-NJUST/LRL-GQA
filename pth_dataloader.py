@@ -20,7 +20,7 @@ def pth_txt_generate(_input_feature_path,_input_label_path,_out_train_txt,_out_t
         if pth_feature[i].endswith('.pth') and pth_label[i].endswith('.pth'):
             path_feature = _input_feature_path + '/' +pth_feature[i]
             path_label = _input_label_path + '/' +pth_label[i]
-            print(path_feature,' ',path_label)
+            print(path_feature,' ',path_label) 
             pth_txt_test.write('%s %s\n' % (path_feature, path_label))
 
 

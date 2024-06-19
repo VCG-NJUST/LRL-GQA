@@ -7,7 +7,7 @@ import torch
 
 def data_txt_generate(_input_dir_path,_out_train_txt,_out_test_txt,ratio_for_train):
     data=os.listdir(_input_dir_path)
-    size=len(data)  #模型数量
+    size=len(data)  #模型数量   
 
     # for k in range(150):
     #     _out_train_txt=_out_train_txt+str(k)

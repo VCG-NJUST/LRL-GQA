@@ -27,7 +27,7 @@ def read_root_txt(root_txt_path):
             lines = f_txt.readline()  # 读取文本中全部内容，以列表形式返回
             for line in lines:
                 path, label, distortion = line.strip().split(' ')
-                path, label, distortion = line.strip().split(' ')
+                path, label, distortion = line.strip().split(' ') 
                 label = int(label)
                 path_list.append(path)
                 labels_list.append(label)

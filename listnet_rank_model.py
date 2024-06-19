@@ -30,7 +30,7 @@ def ndcg(self, y_true, y_score, k=6):
     ndcg = dcg / ideal_dcg
     return ndcg
 
-class listNet(nn.Module):
+class listNet(nn.Module): 
     '''
         training data:[M L C],M=size_of_PCmodel;L=num of every list;C=feature
         input: X:[B L C],B=batch_size;L=size of every list;C=feature
